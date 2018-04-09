@@ -186,8 +186,9 @@
     <Content Include="Catalog\Images\planeglider.png" />
     <Content Include="Catalog\Images\planepaper.png" />
     <Content Include="Catalog\Images\planeprop.png" />
-    <Content Include="Catalog\Images\rocket.png" />
-    <Content Include="Catalog\Images\Thumbs\boatbig.png" />
+    <Content Include="Catalog\Images\Thumbs\abra.jpg" />
+    <Content Include="Catalog\Images\Thumbs\aerodactyl.jpg" />
+    <Content Include="Catalog\Images\Thumbs\alakazam.jpg" />
     <Content Include="Catalog\Images\Thumbs\boatpaper.png" />
     <Content Include="Catalog\Images\Thumbs\boatsail.png" />
     <Content Include="Catalog\Images\Thumbs\bulbasaur.jpg" />
