@@ -105,7 +105,7 @@ namespace RocketNetV2.Models
                                   "Power it up and let it go!", 
                     ImagePath="abra.jpg",
                     UnitPrice = 22.50,
-                    CategoryID = 1
+                    CategoryID = 10
                },
                 new Product 
                 {
@@ -114,7 +114,7 @@ namespace RocketNetV2.Models
                     Description = "There's nothing old about this toy car, except it's looks. Compatible with other old toy cars.",
                     ImagePath="aerodactyl.jpg",
                     UnitPrice = 15.95,
-                     CategoryID = 1
+                     CategoryID = 11 //also 24
                      //CategoryID2 = 8 //this is not currently working
                },
                 new Product
@@ -124,7 +124,7 @@ namespace RocketNetV2.Models
                     Description = "Yes this car is fast, but it also floats in water.",
                     ImagePath="alakazam.jpg",
                     UnitPrice = 32.99,
-                    CategoryID = 1
+                    CategoryID = 10
                 },
                 new Product
                 {
@@ -133,17 +133,17 @@ namespace RocketNetV2.Models
                     Description = "Use this super fast car to entertain guests. Lights and doors work!",
                     ImagePath="arbok.jpg",
                     UnitPrice = 8.95,
-                    CategoryID = 1
+                    CategoryID = 8
                 },
                 new Product
                 {
                     ProductID = 5,
-                    ProductName = "arcaine",
+                    ProductName = "arcanine",
                     Description = "This old style racer can fly (with user assistance). Gravity controls flight duration." + 
                                   "No batteries required.",
-                    ImagePath="arcaine.jpg",
+                    ImagePath="arcanine.jpg",
                     UnitPrice = 34.95,
-                    CategoryID = 1
+                    CategoryID = 2
                 },
                 new Product
                 {
@@ -152,7 +152,7 @@ namespace RocketNetV2.Models
                     Description = "Authentic airplane toy. Features realistic color and details.",
                     ImagePath="articuno.jpg",
                     UnitPrice = 95.00,
-                    CategoryID = 2
+                    CategoryID = 13
                 },
                 new Product
                 {
@@ -161,7 +161,7 @@ namespace RocketNetV2.Models
                     Description = "This fun glider is made from real balsa wood. Some assembly required.",
                     ImagePath="beedrill.jpg",
                     UnitPrice = 4.95,
-                    CategoryID = 2
+                    CategoryID = 15
                 },
                 new Product
                 {
@@ -170,7 +170,7 @@ namespace RocketNetV2.Models
                     Description = "This paper plane is like no other paper plane. Some folding required.",
                     ImagePath="bellsprout.jpg",
                     UnitPrice = 2.95,
-                    CategoryID = 2
+                    CategoryID = 1
                 },
                 new Product
                 {
@@ -179,7 +179,7 @@ namespace RocketNetV2.Models
                     Description = "Rubber band powered plane features two wheels.",
                     ImagePath="blastoise.jpg",
                     UnitPrice = 32.95,
-                    CategoryID = 2
+                    CategoryID = 3
                 },
                 new Product
                 {
@@ -188,16 +188,16 @@ namespace RocketNetV2.Models
                     Description = "This toy truck has a real gas powered engine. Requires regular tune ups.",
                     ImagePath="bulbasaur.jpg",
                     UnitPrice = 15.00,
-                    CategoryID = 3
+                    CategoryID = 1
                 },
                 new Product
                 {
                     ProductID = 11,
                     ProductName = "butterfree",
                     Description = "You will have endless fun with this one quarter sized fire truck.",
-                    ImagePath="butterfre.jpg",
+                    ImagePath="butterfree.jpg",
                     UnitPrice = 26.00,
-                    CategoryID = 3
+                    CategoryID = 15
                 },
                 new Product
                 {
@@ -206,7 +206,7 @@ namespace RocketNetV2.Models
                     Description = "This fun toy truck can be used to tow other trucks that are not as big.",
                     ImagePath="caterpie.jpg",
                     UnitPrice = 29.00,
-                    CategoryID = 3
+                    CategoryID = 15
                 },
                 new Product
                 {
@@ -216,7 +216,7 @@ namespace RocketNetV2.Models
                                   "artifically intelligent computer brain!",
                     ImagePath="chansey.jpg",
                     UnitPrice = 95.00,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
                 new Product
                 {
@@ -226,7 +226,7 @@ namespace RocketNetV2.Models
                                   "Some folding required.",
                     ImagePath="charizard.jpg",
                     UnitPrice = 4.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
                 new Product
                 {
@@ -235,7 +235,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="charmander.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
                 new Product
                 {
@@ -244,7 +244,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="charmeleon.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
                 new Product
                 {
@@ -253,7 +253,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="clefable.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
                 new Product
                 {
@@ -262,7 +262,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="clefairy.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
                 new Product
                 {
@@ -271,7 +271,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="cloyster.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
                 new Product
                 {
@@ -280,7 +280,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="cubone.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
                 new Product
                 {
@@ -289,7 +289,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="dewgong.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
                 new Product
                 {
@@ -298,7 +298,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="diglett.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
                 new Product
                 {
@@ -307,7 +307,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="ditto.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
                 new Product
                 {
@@ -316,7 +316,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="dodrio.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
                 new Product
                 {
@@ -325,7 +325,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="doduo.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
                 new Product
                 {
@@ -334,7 +334,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="dragonair.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 12
                 },
                 new Product
                 {
@@ -343,7 +343,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="dragonite.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 12
                 },
                 new Product
                 {
@@ -352,7 +352,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="dratini.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 12
                 },
                 new Product
                 {
@@ -361,7 +361,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="drowzee.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 10
                 },
                 new Product
                 {
@@ -370,7 +370,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="dugtrio.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
                 new Product
                 {
@@ -379,7 +379,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="eevee.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
                 new Product
                 {
@@ -388,7 +388,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="ekans.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 },
 
                 new Product
@@ -418,7 +418,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="exeggcute.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -428,7 +428,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="exeggutor.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -438,7 +438,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="farfetchd.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
 
                 new Product
@@ -448,7 +448,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="fearow.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
 
                 new Product
@@ -458,7 +458,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="flareon.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
@@ -468,7 +468,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="gastly.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 9
                 },
 
                 new Product
@@ -478,7 +478,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="gengar.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 9
                 },
 
                 new Product
@@ -488,7 +488,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="geodude.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 14
                 },
 
                 new Product
@@ -498,7 +498,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="gloom.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -508,7 +508,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="golbat.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 },
 
                 new Product
@@ -518,7 +518,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="goldeen.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -528,7 +528,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="golduck.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -538,7 +538,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="golem.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 14
                 },
 
                 new Product
@@ -548,7 +548,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="graveler.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 14
                 },
 
                 new Product
@@ -558,7 +558,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="grimer.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 },
 
                 new Product
@@ -568,7 +568,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="growlithe.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
@@ -578,7 +578,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="gyarados.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -588,7 +588,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="haunter.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 9
                 },
 
                 new Product
@@ -598,7 +598,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="hitmonchan.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 6
                 },
 
                 new Product
@@ -608,7 +608,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="hitmonlee.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 6
                 },
 
                 new Product
@@ -618,7 +618,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="horsea.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -628,7 +628,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="hypno.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 10
                 },
 
                 new Product
@@ -638,7 +638,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="ivysaur.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -648,7 +648,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="jigglypuff.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -668,7 +668,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="jynx.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 13
                 },
 
                 new Product
@@ -678,7 +678,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="kabuto.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 14
                 },
 
                 new Product
@@ -688,7 +688,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="kabutops.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 14
                 },
 
                 new Product
@@ -698,7 +698,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="kadabra.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 10
                 },
 
                 new Product
@@ -708,7 +708,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="kakuna.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -718,7 +718,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="kangaskhan.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -728,7 +728,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="kingler.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -738,7 +738,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="koffing.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 },
 
 
@@ -749,7 +749,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="krabby.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -759,7 +759,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="lapras.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -769,7 +769,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="lickitung.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -779,7 +779,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="machamp.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 6
                 },
 
                 new Product
@@ -789,7 +789,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="machoke.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 6
                 },
 
                 new Product
@@ -799,7 +799,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="machop.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 6
                 },
 
                 new Product
@@ -809,7 +809,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="magikarp.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -819,7 +819,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="magmar.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
@@ -849,7 +849,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="mankey.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 6
                 },
 
                 new Product
@@ -859,7 +859,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="marowak.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -869,7 +869,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="meowth.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -879,7 +879,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="metapod.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -889,7 +889,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="mew.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 10
                 },
 
                 new Product
@@ -899,7 +899,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="mewtwo.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 10
                 },
 
                 new Product
@@ -909,7 +909,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="moltres.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
@@ -919,7 +919,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="mr-mime.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 10
                 },
 
                 new Product
@@ -929,7 +929,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="muk.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 },
 
                 new Product
@@ -939,7 +939,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="nidoking.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
@@ -949,7 +949,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="nidoqueen.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
@@ -959,7 +959,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="nidoran-f.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 },
 
                 new Product
@@ -969,7 +969,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="nidoran-m.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
 
                 },
 
@@ -980,7 +980,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="nidorina.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
@@ -990,7 +990,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="nidorino.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
@@ -1000,7 +1000,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="ninetales.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
@@ -1010,7 +1010,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="oddish.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -1020,7 +1020,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="omanyte.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1030,7 +1030,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="omastar.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1040,7 +1040,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="onix.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 14
                 },
 
                 new Product
@@ -1050,7 +1050,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="paras.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -1060,7 +1060,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="parasect.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -1070,7 +1070,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="persian.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -1080,7 +1080,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="pidgeot.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
 
                 new Product
@@ -1090,7 +1090,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="pidgeotto.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
 
                 new Product
@@ -1100,7 +1100,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="pidgey.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
 
                 new Product
@@ -1120,7 +1120,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="pinsir.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -1130,7 +1130,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="poliwag.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1140,7 +1140,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="poliwhirl.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1150,7 +1150,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="poliwrath.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1160,7 +1160,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="ponyta.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
@@ -1170,7 +1170,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="porygon.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 10
                 },
 
                 new Product
@@ -1180,7 +1180,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="primeape.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 6
                 },
 
                 new Product
@@ -1190,7 +1190,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="psyduck.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1210,7 +1210,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="rapidash.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
@@ -1220,7 +1220,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="raticate.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -1230,7 +1230,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="rattata.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -1240,17 +1240,17 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="rhydon.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
                 {
                     ProductID = 15,
-                    ProductName = "ryhorn",
+                    ProductName = "rhyhorn",
                     Description = "Put this fun toy sail boat in the water and let it go!",
-                    ImagePath="ryhorn.jpg",
+                    ImagePath="rhyhorn.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
@@ -1260,7 +1260,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="sandshrew.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
@@ -1270,7 +1270,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="sandslash.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
 
                 new Product
@@ -1280,7 +1280,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="scyther.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -1290,7 +1290,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="seadra.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1300,7 +1300,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="seaking.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1310,7 +1310,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="seel.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1320,7 +1320,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="shellder.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1330,7 +1330,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="slowbro.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1340,7 +1340,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="slowpoke.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1350,7 +1350,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="snorlax.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -1360,7 +1360,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="spearow.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 11
                 },
 
                 new Product
@@ -1370,7 +1370,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="squirtle.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1380,7 +1380,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="starmie.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1390,7 +1390,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="staryu.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1400,7 +1400,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="tangela.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -1410,7 +1410,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="tauros.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -1420,7 +1420,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="tentacool.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1430,7 +1430,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="tentacruel.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1440,7 +1440,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="vaporeon.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1450,7 +1450,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="venomoth.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -1460,7 +1460,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="venonat.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -1470,7 +1470,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="venusaur.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -1480,7 +1480,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="victreebel.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -1496,9 +1496,9 @@ namespace RocketNetV2.Models
                 new Product
                 {
                     ProductID = 15,
-                    ProductName = "voltrob",
+                    ProductName = "voltorb",
                     Description = "Put this fun toy sail boat in the water and let it go!",
-                    ImagePath="voltrob.jpg",
+                    ImagePath="voltorb.jpg",
                     UnitPrice = 42.95,
                     CategoryID = 4
                 },
@@ -1510,17 +1510,17 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="vulpix.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
 
                 new Product
                 {
                     ProductID = 15,
-                    ProductName = "wartotle",
+                    ProductName = "wartortle",
                     Description = "Put this fun toy sail boat in the water and let it go!",
-                    ImagePath="wartotle.jpg",
+                    ImagePath="wartortle.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 3
                 },
 
                 new Product
@@ -1530,7 +1530,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="weedle.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 15
                 },
 
                 new Product
@@ -1540,7 +1540,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="weepinbell.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
 
                 new Product
@@ -1550,7 +1550,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="weezing.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 },
 
                 new Product
@@ -1560,7 +1560,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="wigglytuff.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 7
                 },
 
                 new Product
@@ -1580,7 +1580,7 @@ namespace RocketNetV2.Models
                     Description = "Put this fun toy sail boat in the water and let it go!",
                     ImagePath="zubat.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 8
                 }
             };
       return products;
