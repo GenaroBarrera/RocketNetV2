@@ -11,12 +11,12 @@ https://docs.microsoft.com/en-us/aspnet/web-forms/overview/getting-started/getti
 EDIT: 4/9/18 
 Here's what's left to do.
 
-Update Welcome page message
-Update contact and about page as well
-Remove all wingtips/old site references
-add a search bar to search by name
-update each's pokemon product data. (description, price, etc...)
-possibly change the product model so pokemon can be of multiple types (not necessary)
-possibly change each pokemon's product ID to match that of the pokedex (not necessary)
-I'm not sure what else you guys would want to change on the site, (post any ideas here)
+Update Welcome page message,
+Update contact and about page as well,
+Remove all wingtips/old site references,
+add a search bar to search by name,
+update each's pokemon product data. (description, price, etc...),
+possibly change the product model so pokemon can be of multiple types (not necessary),
+possibly change each pokemon's product ID to match that of the pokedex (not necessary),
+I'm not sure what else you guys would want to change on the site, (post any ideas here),
 
