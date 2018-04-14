@@ -2,8 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <h1><%: Title %>.</h1>
-        <h2>Wingtip Toys can help you find the perfect gift.</h2>
-        <p class="lead">We're all about transportation toys. You can order 
-                any of our toys today. Each toy listing has detailed 
-                information to help you choose the right toy.</p>
+        <h2>You're currently browsing Team Rocket's underground shop.</h2>
+        <p class="lead">Our mission is to provide all types of rare and exotic pokemon to anyone who's willing pay our price.</p>
 </asp:Content>

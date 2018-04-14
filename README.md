@@ -20,3 +20,9 @@ possibly change the product model so pokemon can be of multiple types (not neces
 possibly change each pokemon's product ID to match that of the pokedex (not necessary),
 I'm not sure what else you guys would want to change on the site, (post any ideas here),
 
+Edit 4/13/18
+I've added pokedex entries and prices to the pokemon. All pokemon related model data should be done.
+Still need remove all references of the wingtips toys site. (ctrl-f all wingtips references to find them)
+Anything else not mentioned from the previous edit still hasn't been tackled.
+
+
