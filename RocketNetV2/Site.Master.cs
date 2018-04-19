@@ -12,6 +12,7 @@ using RocketNetV2.Logic;
 
 namespace RocketNetV2
 {
+
     public partial class SiteMaster : MasterPage
     {
         private const string AntiXsrfTokenKey = "__AntiXsrfToken";
@@ -96,6 +97,12 @@ namespace RocketNetV2
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut();
+        }
+
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            var searchText = Server.UrlEncode(txtSearchMaster.Text); // URL encode in case of special characters
+            Response.Redirect("~/Results.aspx?srch=" + searchText);
         }
     }
 
