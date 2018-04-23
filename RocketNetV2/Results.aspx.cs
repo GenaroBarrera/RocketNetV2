@@ -33,17 +33,10 @@ namespace RocketNetV2
 
             if(!String.IsNullOrEmpty(Request.QueryString["srch"]))
             {
-                if (categoryId.HasValue && categoryId > 0)
-                {
-                    query = query.Where(p => p.CategoryID == categoryId);
-                }
 
-                if (!String.IsNullOrEmpty(categoryName))
-                {
-                    query = query.Where(p =>
-                                        String.Compare(p.Category.CategoryName,
-                                        categoryName) == 0);
-                }
+                string search = Request.QueryString["srch"];
+
+                query = query.Where(p => p.ProductName.Contains(search));
 
            
 
