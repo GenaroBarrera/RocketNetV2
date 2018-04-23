@@ -4,6 +4,8 @@ namespace RocketNetV2.Models
 {
     public class Product
     {
+        public int categoryID;
+        public int categoryID2;
         [ScaffoldColumn(false)]
         public int ProductID { get; set; }
 
@@ -18,7 +20,9 @@ namespace RocketNetV2.Models
         [Display(Name = "Price")]
         public double? UnitPrice { get; set; }
 
-        public int? CategoryID { get; set; }  //how can I make this take multiple values (2)
+        public int? CategoryID { get; set; }  //how can I make this take multiple values (2)      
+
+        public int? CategoryID2 { get; set; }
 
     public virtual Category Category { get; set; }
   }

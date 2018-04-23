@@ -113,8 +113,8 @@ namespace RocketNetV2.Models
                     Description = "A savage Pokémon that died out in ancient times. It was resurrected using DNA taken from amber.",
                     ImagePath="aerodactyl.jpg",
                     UnitPrice = 45.00,
-                     CategoryID = 11 //also 24
-                     //CategoryID2 = 8 //this is not currently working
+                    CategoryID = 14, //also 11
+                    CategoryID2 = 11
                },
                 new Product
                 {

@@ -201,7 +201,7 @@ namespace RocketNetV2.Logic
       int? count = (from cartItems in _db.ShoppingCartItems
                     where cartItems.CartId == ShoppingCartId
                     select (int?)cartItems.Quantity).Sum();
-      // Return 0 if all entries are null         
+      // Return 0 if all entries are null     
       return count ?? 0;
     }
 

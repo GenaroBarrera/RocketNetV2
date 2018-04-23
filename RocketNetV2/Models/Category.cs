@@ -7,6 +7,7 @@ namespace RocketNetV2.Models
   {
     [ScaffoldColumn(false)]
     public int CategoryID { get; set; }
+    public int CategoryID2 { get; set; }
 
     [Required, StringLength(100), Display(Name = "Name")]
     public string CategoryName { get; set; }
