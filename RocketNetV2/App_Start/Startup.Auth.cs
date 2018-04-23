@@ -61,8 +61,8 @@ namespace RocketNetV2
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-              ClientId = "000000000000.apps.googleusercontent.com",
-              ClientSecret = "00000000000"
+              ClientId = "188857070395-d0m8fs0ovcdat33kd6kp107hrh3hr9lt.apps.googleusercontent.com",
+              ClientSecret = "r3bDxKjzqgwZSABaKH1aPSAH"
             });
         }
     }

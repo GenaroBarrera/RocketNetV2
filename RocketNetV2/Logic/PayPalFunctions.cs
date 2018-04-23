@@ -33,9 +33,9 @@ public class NVPAPICaller
   //Replace <Your API Username> with your API Username
   //Replace <Your API Password> with your API Password
   //Replace <Your Signature> with your Signature
-  public string APIUsername = "<Your API Username>";
-  private string APIPassword = "<Your API Password>";
-  private string APISignature = "<Your Signature>";
+  public string APIUsername = "generous909-facilitator_api1.gmail.com"; //I've removed the <...> in each of these api fields
+  private string APIPassword = "PT4NVY5XMJP666WC";
+  private string APISignature = "A7BjbPUaJ9eOZT3JB.XfW-iNB27xAhF6fZG5WECdUgBB397gjPlIgErX";
   private string Subject = "";
   private string BNCode = "PP-ECWizard";
 
@@ -66,7 +66,7 @@ public class NVPAPICaller
     encoder["METHOD"] = "SetExpressCheckout";
     encoder["RETURNURL"] = returnURL;
     encoder["CANCELURL"] = cancelURL;
-    encoder["BRANDNAME"] = "Wingtip Toys Sample Application";
+    encoder["BRANDNAME"] = "RocketNet Sample Application";
     encoder["PAYMENTREQUEST_0_AMT"] = amt;
     encoder["PAYMENTREQUEST_0_ITEMAMT"] = amt;
     encoder["PAYMENTREQUEST_0_PAYMENTACTION"] = "Sale";
@@ -179,22 +179,33 @@ public class NVPAPICaller
 
   public string HttpCall(string NvpRequest)
   {
-    string url = pEndPointURL;
+        ServicePointManager.Expect100Continue = true;
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-    string strPost = NvpRequest + "&" + buildCredentialsNVPString();
-    strPost = strPost + "&BUTTONSOURCE=" + HttpUtility.UrlEncode(BNCode);
+
+        string url = pEndPointURL;
+
+        string strPost = NvpRequest + "&" + buildCredentialsNVPString();
+        strPost = strPost + "&BUTTONSOURCE=" + HttpUtility.UrlEncode(BNCode);
+
+        var byteArray = System.Text.Encoding.UTF8.GetBytes(strPost);
+        
+
 
     HttpWebRequest objRequest = (HttpWebRequest)WebRequest.Create(url);
+
+    objRequest.ContentLength = byteArray.Length;
+
     objRequest.Timeout = Timeout;
     objRequest.Method = "POST";
     objRequest.ContentLength = strPost.Length;
 
     try
     {
-      using (StreamWriter myWriter = new StreamWriter(objRequest.GetRequestStream()))
-      {
-        myWriter.Write(strPost);
-      }
+            using (Stream myWriter = objRequest.GetRequestStream())
+            {
+                myWriter.Write(byteArray, 0, byteArray.Length);
+            }
     }
     catch (Exception e)
     {
