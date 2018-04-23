@@ -33,7 +33,9 @@ public class NVPAPICaller
   //Replace <Your API Username> with your API Username
   //Replace <Your API Password> with your API Password
   //Replace <Your Signature> with your Signature
-  public string APIUsername = "generous909-facilitator_api1.gmail.com"; //I've removed the <...> in each of these api fields
+
+                //Note: I got this info from my pay-pal sandbox account. 
+  public string APIUsername = "generous909-facilitator_api1.gmail.com"; //I've removed the <...> in each of these api fields //This fixed the checkout Error 10002
   private string APIPassword = "PT4NVY5XMJP666WC";
   private string APISignature = "A7BjbPUaJ9eOZT3JB.XfW-iNB27xAhF6fZG5WECdUgBB397gjPlIgErX";
   private string Subject = "";

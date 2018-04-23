@@ -59,6 +59,10 @@ namespace RocketNetV2
             //   appId: "",
             //   appSecret: "");
 
+
+
+
+            //Note: Client ID and Client Secret are from (google console developers) you've also enabled Google+ Api
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
               ClientId = "188857070395-d0m8fs0ovcdat33kd6kp107hrh3hr9lt.apps.googleusercontent.com",
