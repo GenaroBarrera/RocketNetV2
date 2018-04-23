@@ -129,6 +129,7 @@ Exception Type: System.Exception
 Exception: The error was unhandled by application code.
 Source: customErrors section - Web.config
 Stack Trace: 
+<<<<<<< HEAD
 ********** 4/16/2018 6:05:37 PM **********
 Inner Exception Type: System.Data.SqlClient.SqlException
 Inner Exception: Cannot drop database "ROCKETNETV2_d927bec88f9c4518bb9b18c95e7c3cc6" because it is currently in use.
@@ -200,12 +201,30 @@ Stack Trace:
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
 
 ********** 4/18/2018 3:21:46 PM **********
+=======
+********** 4/21/2018 3:28:26 PM **********
 Exception Type: System.Net.WebException
 Exception: The request was aborted: Could not create SSL/TLS secure channel.
 Source: HttpCall in PayPalFunction.cs
 Stack Trace: 
    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
    at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 3:28:26 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/21/2018 3:28:47 PM **********
+>>>>>>> 581b8ae44b3cac519108ade29e287cd5693b12e2
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+<<<<<<< HEAD
    at NVPAPICaller.HttpCall(String NvpRequest) in c:\Users\Brenden\Documents\CODING\School Stuff\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
 
 ********** 4/18/2018 4:28:43 PM **********
@@ -231,21 +250,173 @@ Stack Trace:
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
 
 ********** 4/18/2018 5:56:14 PM **********
+=======
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 3:28:47 PM **********
 Exception Type: System.Exception
 Exception: The error was unhandled by application code.
 Source: customErrors section - Web.config
 Stack Trace: 
+********** 4/21/2018 6:00:23 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:00:23 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/21/2018 6:01:38 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:01:38 PM **********
+>>>>>>> 581b8ae44b3cac519108ade29e287cd5693b12e2
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+<<<<<<< HEAD
 ********** 4/18/2018 6:00:18 PM **********
+=======
+********** 4/21/2018 6:02:25 PM **********
+>>>>>>> 581b8ae44b3cac519108ade29e287cd5693b12e2
 Exception Type: System.Exception
 Exception: The error was unhandled by application code.
 Source: customErrors section - Web.config
 Stack Trace: 
+<<<<<<< HEAD
 ********** 4/19/2018 12:17:10 AM **********
+=======
+********** 4/21/2018 6:02:48 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:02:48 PM **********
+>>>>>>> 581b8ae44b3cac519108ade29e287cd5693b12e2
 Exception Type: System.Exception
 Exception: The error was unhandled by application code.
 Source: customErrors section - Web.config
 Stack Trace: 
+<<<<<<< HEAD
 ********** 4/19/2018 12:17:36 AM **********
+=======
+********** 4/21/2018 6:04:00 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:04:00 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/21/2018 6:11:53 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:11:53 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/21/2018 6:18:09 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:18:09 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/21/2018 6:22:47 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:22:47 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/21/2018 6:23:01 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/21/2018 6:27:49 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 194
+
+********** 4/21/2018 6:27:49 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/22/2018 7:47:41 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 198
+
+********** 4/22/2018 7:47:41 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 4/22/2018 7:48:56 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\gener\source\repos\RocketNetV2\RocketNetV2\RocketNetV2\Logic\PayPalFunctions.cs:line 198
+
+********** 4/22/2018 7:48:56 PM **********
+>>>>>>> 581b8ae44b3cac519108ade29e287cd5693b12e2
 Exception Type: System.Exception
 Exception: The error was unhandled by application code.
 Source: customErrors section - Web.config
