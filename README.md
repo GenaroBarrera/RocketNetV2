@@ -25,4 +25,22 @@ I've added pokedex entries and prices to the pokemon. All pokemon related model 
 Still need remove all references of the wingtips toys site. (ctrl-f all wingtips references to find them)
 Anything else not mentioned from the previous edit still hasn't been tackled.
 
+Edit 4/25/18
+Trouble Shooting (Getting Login and Checkout to work)
+Make sure you pull the latest version of our project. If you're reading this you probably have.
+
+Registering and Login should work on the website as is, to get Google login to you'll have to...
+Go to the project's solution explorer in visual studio,
+Right click on the project and go to properties,
+on the left there should be a web tab, click on it and go to project url,
+change the url to https://localhost:44300/ ctrl-s to save the change
+
+You may need to also install Microsoft.Owin 3.00 as well. I'm not entirely sure
+To do this once again right click on the project in the solution explorer in visual studio
+go to manage Nuget packages... and search for Microsoft.Owin
+install it, make sure to install the 3.0 version. (I'm not sure if version 3.00 matters tbh)
+
+If you're still having issues, with login or the checkout process let me know - Genaro
+ 
+
 
